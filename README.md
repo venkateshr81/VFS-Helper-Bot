@@ -59,32 +59,32 @@ By default, it runs every hour to check for visa slots on the VFS website and no
 7. **Run the script:**
 
 ### Appointment:
-    ```sh
-    python vfs_appointment_bot/vfs_appointment_bot.py '<vfs_centre>' '<visa_category>' '<visa_subcategory>'
-    ```
+```sh
+python vfs_appointment_bot/vfs_appointment_bot.py '<vfs_centre>' '<visa_category>' '<visa_subcategory>'
+```
 
-    OR
+OR
 
-    ```sh
-    python vfs_appointment_bot/vfs_appointment_bot.py
-    ```
-    It will prompt the user for input values.
+```sh
+python vfs_appointment_bot/vfs_appointment_bot.py
+```
+It will prompt the user for input values.
 
 **Refer to the screenshot for more details regarding the inputs:**
 
 ![VFS Appointment Form Screenshot](./assets/vfs-appointment-form.png)
 
 ### Application Tracking:
-    ```sh
-    python vfs_appointment_bot/vfs_application_tracking_bot.py '<reference_number>' '<last_name>'
-    ```
+```sh
+python vfs_appointment_bot/vfs_application_tracking_bot.py '<reference_number>' '<last_name>'
+```
 
-    OR
+OR
 
-    ```sh
-    vfs_appointment_bot/vfs_application_tracking_bot.py
-    ```
-    It will prompt the user for input values.
+```sh
+vfs_appointment_bot/vfs_application_tracking_bot.py
+```
+It will prompt the user for input values.
 
 **Refer to the screenshot for more details regarding the inputs:**
 
