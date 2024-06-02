@@ -1,7 +1,8 @@
 # VFS Netherlands Appointment & Application Tracking Bot
 
 [![License](https://img.shields.io/github/license/kunalyelne/VFS-Helper-Bot)](https://github.com/kunalyelne/VFS-Helper-Bot/blob/main/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/kunalyelne/VFS-Helper-Bot)](https://github.com/kunalyelne/VFS-Helper-Bot/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/kunalyelne/VFS-Helper-Bot?include_prereleases&logo=github&color=blue)](https://github.com/kunalyelne/VFS-Helper-Bot/releases)
+
 
 A script to check appointment slots and track your visa application status.
 
