@@ -66,9 +66,9 @@ By default, it runs every hour to check for visa slots on the VFS website and no
     ```
     It will prompt the user for input values.
 
-    **Refer to the screenshot for more details regarding the inputs:**
+**Refer to the screenshot for more details regarding the inputs:**
 
-    ![VFS Appointment Form Screenshot](./assets/vfs-appointment-form.png)
+![VFS Appointment Form Screenshot](./assets/vfs-appointment-form.png)
 
 ### Application Tracking:
     ```sh
@@ -82,9 +82,9 @@ By default, it runs every hour to check for visa slots on the VFS website and no
     ```
     It will prompt the user for input values.
 
-    **Refer to the screenshot for more details regarding the inputs:**
+**Refer to the screenshot for more details regarding the inputs:**
 
-    ![VFS Tracking Form Screenshot](./assets/vfs-tracking-form.png)
+![VFS Tracking Form Screenshot](./assets/vfs-tracking-form.png)
 
 ## Dependencies
 
