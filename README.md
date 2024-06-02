@@ -97,6 +97,38 @@ By default, it runs every hour to check for visa slots on the VFS website and no
       - Create a new bot via Telegram and add it to a chat group for notifications. Check out [this simple tutorial](https://medium.com/codex/using-python-to-send-telegram-messages-in-3-simple-steps-419a8b5e5e2) if you're unfamiliar with creating a new bot and getting its credentials. Add the bot's credentials to the `config/config.ini` file.
       - bot_token (Required): Your Telegram bot token obtained from BotFather.
       - chat_id (Required): The specific Telegram chat ID where you want to receive notifications. If omitted, the bot will send notifications to the chat where it was messaged from. To find your chat ID, you can create a group chat with just yourself and then use the /my_id command within the bot.
+4. Obtain Google Vision API Key for resolving captcha.
+
+## How to Set Up Google Vision API
+
+To use the Google Vision API, you'll need to create a Google Cloud account, enable the Vision API, and generate an API key. Follow these steps:
+
+### 1. Create a Google Cloud Account
+
+If you don't have a Google Cloud account:
+
+1. **Go to the Google Cloud Console**: [Google Cloud Console](https://console.cloud.google.com/).
+2. **Sign in** with your Google account or create a new one.
+3. **Agree to the terms of service** and set up your billing information. Google Cloud offers a free tier with credits that you can use for testing.
+
+### 2. Create a New Project
+
+1. **Navigate to the Dashboard**: In the Google Cloud Console, click on the project dropdown in the top navigation bar.
+2. **Create a New Project**: Click "New Project".
+3. **Enter Project Information**: Provide a project name and select your organization and billing account if prompted.
+4. **Click "Create"**: Wait for the project to be created. You'll see a notification once it's ready.
+
+### 3. Enable the Vision API
+
+1. **Navigate to the API Library**: In the left-hand navigation menu, go to "APIs & Services" > "Library".
+2. **Search for the Vision API**: In the search bar, type "Vision API".
+3. **Enable the API**: Click on "Cloud Vision API" from the search results and then click the "Enable" button.
+
+### 4. Create Credentials for the API
+
+1. **Go to the Credentials Page**: In the left-hand navigation menu, go to "APIs & Services" > "Credentials".
+2. **Create Credentials**: Click the "Create Credentials" button at the top and select "API key".
+3. **Copy Your API Key**: Your new API key will be displayed. Copy it and store it securely, as you'll need it to authenticate your API requests.
 
 ## Installing Geckodriver
 
