@@ -1,5 +1,8 @@
 # VFS Netherlands Appointment & Application Tracking Bot
 
+[![License](https://img.shields.io/github/license/kunalyelne/VFS-Helper-Bot)](https://github.com/kunalyelne/VFS-Helper-Bot/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/kunalyelne/VFS-Helper-Bot)](https://github.com/kunalyelne/VFS-Helper-Bot/releases)
+
 A script to check appointment slots and track your visa application status.
 
 By default, it runs every hour to check for visa slots on the VFS website and notifies the user via Telegram. The interval can be adjusted in the config file.
